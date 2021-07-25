@@ -1,5 +1,5 @@
 <?php
-/**  do not copy. just for syntax highlighting
+/**  do not copy. just for syntax highlighting.  Copy from line 12 to 20
 
 Restrict vendors from choosing a banner type or changing their name position.
 
