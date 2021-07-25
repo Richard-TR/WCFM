@@ -1,5 +1,5 @@
 <?php
-/** ^ do not copy. just for syntax highlighting
+/** ^ do not copy. just for syntax highlighting. Copy from line 7 to 28
 
 The following two filters limit WCFM vendors to png and jpg of 5mb or lower
 --------------------------------------------------------------------------
