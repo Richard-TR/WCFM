@@ -1,3 +1,8 @@
+<?php
+/** ^ do not copy. just for syntax highlighting
+
+--------------------------------------------------------------------------
+
 /** Limit vendors to png and jpegs **/
 add_filter('upload_mimes','restict_mimes_all_but_admin'); 
 function restict_mimes_all_but_admin($mimes) { 
@@ -19,3 +24,5 @@ function upload_size_limit( $size ) {
     return $size;
 }
 add_filter( 'upload_size_limit', 'upload_size_limit', 20 );
+
+--------------------------------------------------------------------------
