@@ -15,7 +15,7 @@ if(!current_user_can('administrator')){
     return $mimes;
 }
 
-/** Filter the upload size limit for all but admin **/
+/** Set the upload size limit for all but admin **/
 function upload_size_limit( $size ) {
     if ( ! current_user_can( 'administrator' ) ) {
         // Current: 5 MB.
