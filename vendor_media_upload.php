@@ -1,6 +1,7 @@
 <?php
 /** ^ do not copy. just for syntax highlighting
 
+The following two filters limit WCFM vendors to png and jpg of 5mb or lower
 --------------------------------------------------------------------------
 
 /** Limit vendors to png and jpegs **/
