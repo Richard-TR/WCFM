@@ -1,1 +1,1 @@
-# WCFM
+# Wordpress, Woocommerce & WCFM
