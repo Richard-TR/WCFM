@@ -8,6 +8,7 @@
 /** Add product type body class **/
 add_filter('body_class','woocommerce_body_classes');
 function woocommerce_body_classes( $classes ) {
+    if ( is_product() ) {
     global $woocommerce, $post, $product;
     $product = get_product( $post->ID );
     $product_type = $product->product_type;
@@ -16,4 +17,5 @@ function woocommerce_body_classes( $classes ) {
     if ( $product->product_type == 'simple' ) $classes[] = 'simple-product';
     if ( $product->product_type == 'variable' ) $classes[] = 'variable-product';
     return $classes;
+}
 }
